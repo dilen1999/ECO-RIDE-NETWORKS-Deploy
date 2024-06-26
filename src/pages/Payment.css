@@ -1,0 +1,64 @@
+.paymentbox {
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    height: 630px;
+  }
+  
+  .paymentbox1 {
+    height: 300px;
+    border-bottom: 2px solid rgb(61, 61, 146);
+  }
+  
+  .paymentbox2 {
+    height: 330px;
+  }
+  
+  .payment_table {
+    width: 100%;
+    overflow: auto; /* Enable scrolling */
+    max-height: 250px; /* Set a maximum height for the scrollable area */
+  }
+  
+  .paymet-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .paymet-table-header {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .bg-blue {
+    background-color: #64b5f6; /* Example blue color */
+  }
+  
+  
+  .paymet-table-body {
+    /* Set overflow and max-height for scrollability */
+    overflow-y: auto;
+    max-height: 250px;
+  }
+  
+  .paymet-table-row {
+    /* Add padding and adjust hover effect */
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+  
+    /* Hover effect */
+  }
+  .paymet-table-row:hover {
+    background-color: #f0f0f0;
+  }
+  
+  
+  .paymet-table-cell {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    /* Styles for each cell */
+  }
+  
