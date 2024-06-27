@@ -21,7 +21,7 @@ const MapContainer = (props) => {
   // Fetch ride paths on component mount
   useEffect(() => {
     fetchActiveRidePaths();
-  }, []);
+  }, [ridePaths]);
 
   // const cycleIcon = {
   //   url: "https://img.pngwing.com/pngs/582/77/png-transparent-bicycle-icons-pedaler-cyclist-cycling-cycling-sport-sports-equipment-thumbnail.png", // Replace with your icon URL
